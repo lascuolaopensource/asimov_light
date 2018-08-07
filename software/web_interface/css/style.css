@@ -1,0 +1,101 @@
+/*======== Custom CSS ==========*/
+body,html,.row-offcanvas {
+  height:100%;
+}
+
+.logo{
+  padding: 20px;
+}
+
+/*===========================
+########## Form ############
+==============================*/
+.outer-wrapper { 
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.inner-wrapper {
+  display:table-cell;
+  vertical-align:middle;
+  padding:15px;
+}
+
+.login-btn { 
+	position:fixed; 
+	top:15px; 
+	right:15px; 
+}
+
+.form-style-login{
+	padding: 10px;
+	background-color: #85bedb;
+	border-radius: 10px;
+}
+
+.form-style-insert{
+	padding: 10px;
+	background-color: #22bf43;
+	border-radius: 10px;
+}
+
+.form-style-delete{
+	padding: 10px;
+	background-color: #ff0019;
+	border-radius: 10px;
+}
+
+
+
+/*===========================
+########## Admin ############
+==============================*/
+
+/*Porte item menu sidebar*/
+.porte{
+  background-color: green;
+  color: black !important;
+  font-weight: bolder;
+}
+
+/*Tessere item menu sidebar*/
+.tessere{
+  background-color: green;
+  color: black !important;
+  font-weight: bolder;
+}
+
+/*storico item menu sidebar*/
+.storico{
+  background-color: #3491ad;
+  color: black !important;
+  font-weight: bolder;
+}
+
+/*impostazioni item menu sidebar*/
+.impostazioni{
+  background-color: #b2429d;
+  color: black !important;
+  font-weight: bolder;
+}
+
+.active-item{
+  text-decoration: underline;
+}
+
+.port-list{
+  list-style: none;
+}
+
+.port-list li{
+  float: left;
+  margin: 10px;
+  padding: 5px 20px 5px 20px;
+  background-color: black;
+}
+
+.port-list li a{
+  color: white;
+}
+
